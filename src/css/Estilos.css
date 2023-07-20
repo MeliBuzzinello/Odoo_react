@@ -1,0 +1,112 @@
+.navbar {
+	display: flex;
+    justify-content: space-between;
+    padding: 15px 45px 1px 45px;
+}
+
+.navbar-title {
+	color: rgb(78 76 76);
+    font-size: 13px;
+}
+
+.contenedor-padre {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 24px;
+}
+
+.contenedor-hijo {
+	width: 90%;
+	/* height: 300px; */
+	border: 1px solid #ccc;
+}
+
+.contenedor-title {
+	display: flex;
+    justify-content: center;
+	align-content: center;
+	padding: 8px;
+	border-bottom: 1px solid #ccc;
+}
+
+.contenedor-padre-odoo {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-hijo-odoo {
+	width: 90%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+	align-items: center;
+    background: rgba(113, 75, 103, 1);
+    border-radius: 3px;
+    margin-top: 25px;
+}
+
+.odoo-title {
+	width: 80%;
+    color: white;
+	font-size: 20px;
+}
+
+.odoo-state {
+	color: rgba(151, 151, 151, 1);
+    width: 10%;
+}
+
+.odoo-icono {
+	color: #ffffff;
+    margin: 10px;
+}
+
+.signupForm {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.form {
+	width: 270px;
+	padding: 20px;
+}
+
+
+.title {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 38px;
+	color: rgba(9, 53, 122, 1);
+	text-align: center;
+}
+
+.sub {
+	font-size: 22px;
+}
+
+
+.submitBtn {
+	width: 100%;
+	margin-top: 20px !important;
+	height: 30px;
+	display: block;
+	border-radius: 3px;
+	background-color: rgba(9, 53, 122, 1);
+	color: white;
+	cursor: pointer;
+	font-size: 16px;
+	box-shadow: 1px 8px 14px -8px rgba(0, 0, 0, 0.54);
+}
+
+.submitBtn:active {
+	background-color: rgb(23, 89, 196);
+}
+
+/* .lista-dispositivos {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+} */
